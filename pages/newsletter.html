@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Our Newsletter</title>
+</head>
+
+<body>
+    <header>
+        <h1><img src="logo.png" alt="Logo" width="100" height="100">Tires In Time</h1>
+        <h2>Subscribe to our Newsletter!</h2>
+        <h3>Stay in contact with us to receive emails about special promotions & discounts!</h3>
+        <ul>
+            <li>Home/About Us</li>
+            <li>Services</li>
+            <li>Newsletter</li>
+        </ul>
+    </header>
+
+    <div class="container">
+        <form>
+            <br><label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" maxlength="15"><br>
+            
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" maxlength="15"><br>
+            
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" maxlength="50"><br>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" maxlength="11"><br>
+            
+            <label>Notifications:</label>
+            
+            <input type="radio" id="notifText" name="notifText" value="Text" checked>
+            <label for="notifText">Text</label>
+            
+            <input type="radio" id="notifEmail" name="notifEmail" value="Email">
+            <label for="notifEmail">Email</label>
+            
+            <input type="radio" id="notifBoth" name="notifBoth" value="Both">
+            <label for="notifBoth">Text & Email</label>
+
+            <br><br><input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>
