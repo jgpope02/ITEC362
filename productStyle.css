@@ -1,7 +1,6 @@
 .allCards {
-    margin: 1rem;
-    padding: 2 rem 2 rem;
-    text-align: center;
+   display:flex;
+   flex-wrap: wrap;
 }
 
 .card {
