@@ -21,9 +21,17 @@ header * {
 
 header nav {
     margin: 20px;
+    float: right;
 }
 
 header nav a {
+    display: block;
     color: black;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+}
+
+header nav a:hover {
+    background-color: gray;
 }
