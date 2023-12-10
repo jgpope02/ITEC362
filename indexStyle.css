@@ -1,20 +1,29 @@
-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    float: right;
+body {
+    margin-top: 80px;
+    padding: 30px;
 }
 
-nav a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header nav {
+    margin: 20px;
+}
+
+header nav a {
+    color: black;
     text-decoration: none;
-}
-
-nav a:hover {
-    background-color: gray;
 }
