@@ -1,0 +1,159 @@
+/*general styling*/
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+    background-color: #A7A7A7;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.aboutSection {
+  font-size: 30px;
+  text-align:center;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.aboutImage {
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  filter: drop-shadow(5px 5px 5px black);
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 90%;
+  height: 50px;
+}
+/*End of general styling*/
+
+/*header styling*/
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+.navbar {
+  position: absolute;
+  top: 25px;
+  right: 125px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: #A7A7A7;
+    padding: 10px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #d3202a;
+}
+
+.navbar li {
+    float: left;
+}
+
+.cartLogo {
+  position:absolute;
+  display: block;
+  right: 30px;
+  
+}
+/*End of header styling*/
+
+/*product cards styling*/
+.allCards {
+    display:flex;
+    flex-wrap: wrap;
+ }
+ 
+ .card {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+     max-width: 300px;
+     background-color: gray;
+     margin: auto;
+     text-align: center;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+     vertical-align: middle;
+     padding: 10px;   
+   }
+   
+   .price {
+     color: white;
+     font-size: 22px;
+   }
+
+   .tireDescription {
+    font-size: 18px;
+   }
+   
+   .card button {
+     border: none;
+     outline: 0;
+     padding: 12px;
+     color: white;
+     background-color: #d3202a;
+     text-align: center;
+     cursor: pointer;
+     width: 100%;
+     font-size: 18px;
+   }
+   
+   .card button:hover {
+     opacity: 0.7;
+   }
+   /*End of product cards styling*/
+
+   /*Form styling*/
+   input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    background-color: #d3202a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+   /*End of form styling*/

@@ -7,22 +7,24 @@
     <meta name="keywords" content="Rent, Tires, Tire Rental">
     <meta name="author" content="Joshua Pope">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="newsStyle.css">
+    <link rel="stylesheet" href="style.css">
     <title>Our Newsletter</title>
 </head>
 
 <body>
     <header>
-        <h1><img src="images/logo.png" alt="Logo" width="100" height="100">Tires In Time</h1>
-        <h2>Subscribe to our Newsletter!</h2>
-        <h3>Stay in contact with us to receive emails about special promotions & discounts!</h3>
-        <nav>
-            <a href="index.html">Home/About Us</a>
-            <a href="products.html">Products</a>
-            <a href="newsletter.html">Newsletter</a>
+        <img src="images/tiresintime.png" alt="Tires In Time">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home/About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="newsletter.html">Newsletter</a></li>
+            </ul>
         </nav>
+        <img src="images/cart.png" alt="Cart" class="cartLogo" width="75" height="75">
     </header>
-
+    <h1>Subscribe to our Newsletter!</h2>
+    <h2>Stay in contact with us to receive emails about special promotions & discounts!</h3>
     <div class="container">
         <form>
             <br><label for="firstName">First Name:</label>
@@ -39,16 +41,16 @@
             
             <label>Notifications:</label>
             
-            <input type="radio" id="notifText" name="notifText" value="Text" checked>
+            <input type="radio" id="notifText" name="radioNotif" value="Text" checked>
             <label for="notifText">Text</label>
             
-            <input type="radio" id="notifEmail" name="notifEmail" value="Email">
+            <input type="radio" id="notifEmail" name="radioNotif" value="Email">
             <label for="notifEmail">Email</label>
             
-            <input type="radio" id="notifBoth" name="notifBoth" value="Both">
+            <input type="radio" id="notifBoth" name="radioNotif" value="Both">
             <label for="notifBoth">Text & Email</label>
 
-            <br><br><input type="submit" value="Submit">
+            <br><br><input type="submit" value="Subscribe!">
         </form>
     </div>
 
